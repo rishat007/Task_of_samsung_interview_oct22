@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtvalue_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Accelerometer Sensor Value"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/txtvalue_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Temperature Sensor Value"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/txtvalue_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Pressure Sensor Value"
+        android:textSize="30sp"
+        android:textStyle="normal"/>
+
+</LinearLayout>
